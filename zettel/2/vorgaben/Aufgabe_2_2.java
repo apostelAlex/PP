@@ -3,9 +3,9 @@ public class Aufgabe_2_2 {
 
     
     public static void main(String[] args){
-        long input = IOTools.readInteger();
+        long input = IOTools.readLong();
         while(input<10)
-            input = IOTools.readInteger(); 
+            input = IOTools.readLong(); 
         long temp = input;
         boolean result = true;
         long last=-1, pre_last=-1;
