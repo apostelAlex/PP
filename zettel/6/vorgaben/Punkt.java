@@ -24,8 +24,8 @@ public class Punkt {
     }
 
     public void move(double x, double y){
-        this.x = x;
-        this.y = y;
+        this.x += x;
+        this.y += y;
     }
     public void scale(double factor_x, double factor_y){
         x *= factor_x;
